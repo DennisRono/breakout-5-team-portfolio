@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  border-style: border-box;
+}
+header {
+  background-color: brown;
+  padding: 10px 5%;
+}
+.landing {
+  height: 50vh;
+  overflow: hidden;
+}
+.inner_wrap {
+  position: relative;
+  height: 100%;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.relative_wrap,
+.image_wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.relative_wrap {
+  z-index: 2;
+  background: #00000098;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+footer {
+  height: min-content;
+  background: #000;
+  color: #fff;
+  padding: 20px 5%;
+  overflow: hidden;
+}
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+}
+a {
+  padding: 10px;
+  white-space: nowrap;
+}
+.github_links {
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.github_links > span,
+.github_links > a {
+  color: #000;
+}
+
+.about {
+  background-color: burlywood;
+  padding: 20px 5%;
+}
+
+.table {
+  background: orangered;
+  padding: 20px 5%;
+}
+table,
+thead,
+tbody,
+tr,
+td,
+th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  color: #000;
+}
+table {
+  width: 100%;
+  margin: 20px 0;
+}
+
+td,
+th {
+  padding: 10px;
+}

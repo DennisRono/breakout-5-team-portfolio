@@ -1,9 +1,11 @@
+<!-- working on css branch that should not affect main branch -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Breakout Room 5 Team Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
@@ -12,21 +14,72 @@
       </div>
       <div class=""></div>
     </header>
-    <div class="">
-      <div class="">
-        <h2>Welcome to Our Portfolio</h2>
-        <img
-          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt=""
-        />
+    <div class="landing">
+      <div class="inner_wrap">
+        <div class="relative_wrap">
+          <h2>Welcome to Our Portfolio</h2>
+        </div>
+        <div class="image_wrap">
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
       </div>
+    </div>
+    <div class="about" style="color: black">
+      <ul>
+        <li class="github_links">
+          <span><strong style="color: black">GROUP LEADER:</strong></span>
+          <span>Peter Atong'a</span>
+          <a href="https://github.com/peter-atonga">Github</a>
+        </li>
+        <li class="github_links">
+          <span>Dennis Kibet</span>
+          <a href="https://github.com/DennisRono">Github</a>
+        </li>
+        <li class="github_links">
+          <span>Sonfrancisco Otieno James</span>
+          <a href="https://github.com/FRANK7434">Github</a>
+        </li>
+        <li class="github_links">
+          <span>Ian Njeru</span>
+          <a href="https://github.com/IanNjeru17">Github</a>
+        </li>
+      </ul>
+    </div>
+    <div class="about">
+      <h1>About Us</h1>
+      <p style="color: black">
+        Breakout Group 5 is coding HTML together, enhancing their skills through
+        collaboration. They're learning rapidly, sharing insights, and
+        overcoming challenges as a team, fostering a productive and supportive
+        environment.
+      </p>
+    </div>
+    <div class="table">
+      <h1>Table of Good Music</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Artist</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rhumba</td>
+            <td>Sauti Sol</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <footer>
       <div class="">
         <table>
           <thead>
             <tr>
-              <th><h1>About Us</h1></th>
+              <th><h1 style="white-space: nowrap">About Us</h1></th>
             </tr>
           </thead>
           <tbody>
@@ -41,8 +94,8 @@
           </tbody>
         </table>
       </div>
-      <div class="">
-        <p>Copyright &copy; 2024 | Breakout Room 5 Team</p>
+      <div class="" style="width: 100%">
+        <p class="copyright">Copyright &copy; 2024 | Breakout Room 5 Team</p>
       </div>
     </footer>
   </body>
