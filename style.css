@@ -46,6 +46,7 @@ footer {
   background: #000;
   color: #fff;
   padding: 20px 5%;
+  overflow: hidden;
 }
 .copyright {
   text-align: center;
@@ -63,4 +64,33 @@ a {
 .github_links > span,
 .github_links > a {
   color: #000;
+}
+
+.about {
+  background-color: burlywood;
+  padding: 20px 5%;
+}
+
+.table {
+  background: orangered;
+  padding: 20px 5%;
+}
+table,
+thead,
+tbody,
+tr,
+td,
+th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  color: #000;
+}
+table {
+  width: 100%;
+  margin: 20px 0;
+}
+
+td,
+th {
+  padding: 10px;
 }
