@@ -20,6 +20,9 @@
 
 5. Discuss semantic elements and its benefits. - semantic elements are a key feature of HTML5 that help define the structure and meaning of web pages. Elements like `<header>`, `<article>`, and `<footer>`. Semantic elements help browsers and developers understand the type of content within each element, making it easier to interpret and style the page.
 
-6. Discuss the diff btn inline and block elements. -
+6. Discuss the difference between inline and block elements.
 
-7. Create a simple html portfolio of your team. -
+   - A block-level element always starts on a new line. A block-level element always takes up the full width available
+   - An inline element does not start on a new line. An inline element only takes up as much width as necessary.
+
+7. Create a simple html portfolio of your team.
