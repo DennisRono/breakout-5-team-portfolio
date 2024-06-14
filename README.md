@@ -24,5 +24,16 @@
 
    - A block-level element always starts on a new line. A block-level element always takes up the full width available
    - An inline element does not start on a new line. An inline element only takes up as much width as necessary.
+  
+
+   | Feature           | Block Elements                   | Inline Elements                           |
+   |-------------------|----------------------------------|-------------------------------------------|
+   | **Line Breaks**   | Start on a new line              | Do not start on a new line                |
+   | **Width/Height**  | Can set width and height         | Cannot set width and height               |
+   | **Margins**       | Respect all margin properties    | Only respect horizontal margins           |
+   | **Padding**       | Respect all padding properties   | Only respect horizontal padding           |
+   | **Use Case**      | Layout and structure             | Text formatting and inline content        |
+   | **Examples**      | `<div>`, `<p>`, `<h1>` to `<h6>` | `<span>`, `<a>`, `<strong>`, `<em>`       |
+
 
 7. Create a simple html portfolio of your team.
